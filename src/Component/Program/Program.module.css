@@ -1,0 +1,10 @@
+.cardInner > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+.card:hover {
+  background-image: var(--planCard);
+  cursor: pointer;
+}

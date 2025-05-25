@@ -1,0 +1,4 @@
+.navBarMenu > li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}

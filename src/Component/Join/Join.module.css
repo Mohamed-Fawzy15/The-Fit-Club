@@ -1,0 +1,20 @@
+.joinLeftSide > hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid var(--orange);
+  border-radius: 20%;
+}
+
+.joinForm {
+  display: flex;
+  gap: 3rem;
+  background-color: gray;
+  padding: 1rem 2rem;
+}
+
+.joinForm > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--lightGray);
+}

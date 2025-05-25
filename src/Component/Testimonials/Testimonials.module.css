@@ -1,0 +1,43 @@
+.testimonialsRight {
+  position: relative;
+  width: 50%;
+}
+
+.coachImg {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}
+
+.testimonialsRight > :nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid orange;
+  background-color: transparent;
+  right: 9rem;
+  top: 0.9rem;
+}
+
+.testimonialsRight > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  right: 7rem;
+  top: 4rem;
+  background-color: var(--orange);
+}
+
+@media screen and (max-width: 768px) {
+  .coachImg {
+    position: relative;
+    right: 0;
+    left: 7rem;
+  }
+  .testimonialsRight {
+    width: 100%;
+  }
+}

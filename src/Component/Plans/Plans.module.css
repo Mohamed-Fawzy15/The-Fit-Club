@@ -1,0 +1,14 @@
+.cardInner > svg {
+  fill: var(--orange);
+  width: 2rem;
+  height: 2rem;
+}
+
+.plansCard:nth-child(2) {
+  background-image: var(--planCard);
+  transform: scale(1.1);
+}
+
+.plansCard:nth-child(2) .cardInner > svg {
+  fill: white;
+}
