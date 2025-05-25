@@ -1,12 +1,63 @@
-# React + Vite
+The Fit Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Fit Club is a modern, responsive website for a fitness club, designed to promote gym services, engage users, and allow visitors to join via an email subscription form. The site features a clean UI with smooth animations, a mobile-friendly navbar, and a dynamic hero section. It is built with React and Tailwind CSS, hosted on Netlify at https://thefclub.netlify.app/.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: Fully responsive layout with a mobile-friendly hamburger menu and adaptive hero section.
+
+
+Smooth Scrolling: Navigation links scroll smoothly to sections like Home, Programs, Why Us, Plans, and Testimonials.
+
+
+Email Subscription: A form using React Hook Form and EmailJS for users to join the club, with validation and toast notifications via React Toastify.
+
+
+Dynamic Animations: Framer Motion powers animations in the hero section, including sliding badges and image transitions.
+
+
+Modern Styling: Tailwind CSS with custom gradients (e.g., --planCard) for a vibrant, fitness-themed design.
+
+Technologies Used
+
+
+
+React: Frontend framework for building the UI.
+
+
+Tailwind CSS: Utility-first CSS framework for styling.
+
+
+Framer Motion: Animation library for smooth transitions.
+
+
+React Hook Form: Form handling with validation.
+
+
+EmailJS: Email service for subscription form submissions.
+
+
+React Toastify: Toast notifications for user feedback.
+
+
+Vite: Build tool for fast development and production builds.
+
+
+Netlify: Hosting platform for deployment.
+
+Prerequisites
+
+
+
+Node.js (v16 or higher)
+
+
+npm (v8 or higher)
+
+
+EmailJS account (for form functionality)
+
+
+Git (for cloning the repository)
